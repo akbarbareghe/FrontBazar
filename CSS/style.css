@@ -76,9 +76,8 @@ a{
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     background-color: blanchedalmond;
+    justify-content: flex-end;
 }
 
 .navbar-search{
@@ -88,7 +87,6 @@ a{
     border-color: #cacaca;
     padding: 0 10px;
     display: flex;
-    justify-self: flex-start;
 
 }
 
