@@ -1,3 +1,4 @@
+@import url(../font/fontawesome-free-6.2.0-web/css/all.css);
 @font-face {
     font-family: 'Yekan' ;
     src: url('../font/Yekan.eot') format('eot');
@@ -35,10 +36,20 @@ a{
     flex-direction: row-reverse;
 }
 
+/* navbar logo */
+
 .navabar-logo{
     width: 20%;
     height: 100%;
 }
+
+.logo{
+    width: 60%;
+    height: 70%;
+    margin-top: 10px;
+}
+
+/* navbar menu */
 
 .navbar-menu{
     width: 50%;
@@ -59,7 +70,7 @@ a{
 }
 
 
-
+/* navbar login */
 .navabr-login{
     width: 30%;
     height: 100%;
@@ -67,10 +78,32 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: blanchedalmond;
 }
 
-.logo{
-    width: 60%;
-    height: 70%;
-    margin-top: 10px;
+.navbar-search{
+    width: 50%;
+    background-color: rgb(247, 247, 247);
+    border-radius: 4px;
+    border-color: #cacaca;
+    padding: 0 10px;
+    display: flex;
+    justify-self: flex-start;
+
 }
+
+.navbar-search>i{
+    color: darkgray;
+    padding-left: 10px;
+}
+.search_in{
+    border: none;
+    background-color: transparent;
+    direction: rtl;
+}
+
+.search_in::placeholder{
+    color: #a7a7a7;
+    font-size: 12px;
+}
+
