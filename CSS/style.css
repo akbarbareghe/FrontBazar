@@ -87,6 +87,7 @@ a{
     border-color: #cacaca;
     padding: 0 10px;
     display: flex;
+    align-items: center;
 
 }
 
