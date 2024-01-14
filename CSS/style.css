@@ -73,15 +73,16 @@ a{
 /* navbar login */
 .navabr-login{
     width: 30%;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
     background-color: blanchedalmond;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .navbar-search{
-    width: 50%;
+    width: 60%;
+    height: 50%;
     background-color: rgb(247, 247, 247);
     border-radius: 4px;
     border-color: #cacaca;
