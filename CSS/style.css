@@ -1,7 +1,23 @@
+@font-face {
+    font-family: 'Yekan' ;
+    src: url('../font/Yekan.eot') format('eot');
+    src: url('../font/yekan-regular.ttf') format('ttf');
+    src: url('../font/Yekan.woff') format('woff');
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Yekan';
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 /* navabr */
@@ -22,22 +38,37 @@
 .navabar-logo{
     width: 20%;
     height: 100%;
-    background-color: burlywood;
 }
 
 .navbar-menu{
     width: 50%;
     height: 100%;
-    background-color: blueviolet;
+    
 }
+
+.navbar-menu>ul{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+}
+
+.navbar-menu>ul>li{
+    margin-right: 20px;
+}
+
+
 
 .navabr-login{
     width: 30%;
     height: 100%;
-    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
-    width: 300px;
-    height: 42px;
+    width: 60%;
+    height: 70%;
+    margin-top: 10px;
 }
