@@ -4,3 +4,40 @@
     box-sizing: border-box;
 }
 
+/* navabr */
+
+.navabr {
+    position: fixed;
+}
+
+.container-navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .1);
+    flex-direction: row-reverse;
+}
+
+.navabar-logo{
+    width: 20%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+.navbar-menu{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.navabr-login{
+    width: 30%;
+    height: 100%;
+    background-color: brown;
+}
+
+.logo{
+    width: 300px;
+    height: 42px;
+}
