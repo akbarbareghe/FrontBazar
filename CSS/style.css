@@ -49,11 +49,13 @@ a{
 .navbar-menu>ul{
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 15px;
+    margin-top: 18px;
+    align-content: center;
 }
 
 .navbar-menu>ul>li{
     margin-right: 20px;
+    font-size: 18px;
 }
 
 
