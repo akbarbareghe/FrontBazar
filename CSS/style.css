@@ -358,16 +358,73 @@ footer{
 .about{
     width: 60%;
     height: 50%;
-    background-color: azure;
+    align-self: center;
+    direction:rtl ;
+}
+.about>h2{
+    font-size: 1.125 rem;
+}
+
+.about>p{
+    font-size: .875rem;
+}
+
+.container-download-bazar{
+    height: 50%;
+    width: 40%;
+    align-self: center;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid #e5e7f0;
+    border-radius: 8px;
+}
+
+.download-bazar-right{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-bazar-right>img{
+    width: 75%;
+    height: 75%;
+}
+
+.download-bazar-left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.download-bazar-left-title{
+    width: 80%;
+    height: 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.download-bazar-left-title>h5{
+    font-size: 0.875rem;
+    justify-self: flex-end;
+    
+}
+
+.download-bazar-left-title>p{
+    font-size: 0.775rem;
+}
+
+.download-bazar-buttons{
+    width: 80%;
+    height: 50%;
     align-self: center;
 }
 
-.download-bazar{
-    height: 50%;
-    width: 40%;
-    background-color: brown;
-    align-self: center;
-}
 
 .container-menu{
     display: flex;
