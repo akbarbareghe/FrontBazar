@@ -481,6 +481,11 @@ footer {
     line-height: 3rem;
 }
 
+.menu>div>a:hover{
+    color: #0da05b;
+    cursor: pointer;
+}
+
 .sign {
     width: 30%;
     height: 80%;
@@ -505,10 +510,20 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    padding: 5px;
+    padding: 10px;
     align-self: center;
 }
 .footer-social>p{
     font-size: 12px;
 
+}
+.social-icons{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.social-icons>img{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
 }
