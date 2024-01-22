@@ -476,9 +476,39 @@ footer {
     align-items: flex-end;
 }
 
+.menu>div>a{
+    font-size: 14px;
+    line-height: 3rem;
+}
 
 .sign {
     width: 30%;
     height: 80%;
-    background-color: #73b697;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+.sign>img{
+    height: 110px;
+    border: 1px solid #e5e7f0;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.container-footer-social{
+    display: flex;
+    justify-content: center;
+}
+.footer-social{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 5px;
+    align-self: center;
+}
+.footer-social>p{
+    font-size: 12px;
+
 }
