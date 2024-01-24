@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+.logo {
+    width: auto;
+    height: 42px;
+    margin-top: 12px;
+}
+
+/* navbar menu */
+
+.navbar-menu {
+    width: 50%;
+    height: 100%;
+
+}
+
+.navbar-menu>ul {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 18px;
+    align-content: center;
+}
+
+.navbar-menu>ul>li>a {
+    margin-right: 20px;
+    font-weight: 300;
+    color: #737475;
+}
+
+
