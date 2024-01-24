@@ -39,6 +39,14 @@ a {
     box-shadow: 0 2px 12px rgba(0, 0, 0, .1);
 }
 
+.navbar-menu-a{
+    color: #636363;
+}
+
+.navbar-menu-a:hover{
+    color: #141414;
+}
+
 .container-navbar{
     display: flex;
     align-items: center;
@@ -102,6 +110,15 @@ a {
 
 .fa-search{
     margin-left: 10px;
+}
+
+.fa-user{
+    padding: 8px;
+}
+
+.fa-user:hover{
+    border-radius: 50%;
+    background-color: #c7c5c5;
 }
 /* -------------------------------------------------------------------- */
 
