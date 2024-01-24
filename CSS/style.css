@@ -114,6 +114,26 @@ a {
     border-color: #0f9a59;
 }
 
+.navbar-menu-a:hover{
+    color: #5f5e5e;
+}
+.fa-user{
+    padding: 10px;
+}
+.fa-user:hover{
+    background-color: #ebecee;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fa-ellipsis-v{
+    padding: 10px;
+}
+.fa-ellipsis-v:hover{
+    background-color: #ebecee;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
 .navbar-search {
     width: 220px;
     height: 50%;
@@ -137,6 +157,10 @@ a {
     border: none;
     background-color: transparent;
     direction: rtl;
+}
+
+.search_in:focus{
+    outline: none;
 }
 
 .search_in::placeholder {
